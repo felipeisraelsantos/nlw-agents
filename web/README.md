@@ -34,14 +34,14 @@ Projeto desenvolvido durante o evento **NLW (Next Level Week)** da Rocketseat, f
 
 ```
 | src/
-??? app.tsx         # Componente principal
-??? components      # Componentes base reutilizáveis
-??? lib             # Utilitários e configurações
-??? main.tsx        # Ponto de entrada
-??? pages           # Páginas da aplicação
+|-- app.tsx         # Componente principal
+|-- components      # Componentes base reutilizáveis
+|-- lib             # Utilitários e configurações
+|-- main.tsx        # Ponto de entrada
+|-- pages           # Páginas da aplicação
 ```
 
-## ??? Padrões de Projeto
+## Padrões de Projeto
 
 - **Componentes Funcionais** com hooks do React
 - **TypeScript** para tipagem estática
@@ -50,7 +50,7 @@ Projeto desenvolvido durante o evento **NLW (Next Level Week)** da Rocketseat, f
 - **Componentes UI** baseados em Radix UI
 - **Linting** com Biome para consistência de código
 
-## ? Setup e Configuração
+## Setup e Configuração
 
 ### Pré-requisitos
 
