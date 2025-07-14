@@ -2,7 +2,7 @@
 
 Projeto desenvolvido durante o evento **NLW (Next Level Week)** da Rocketseat, focado em criar uma aplicação web moderna com React e TypeScript.
 
-## ?? Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Core
 
@@ -30,16 +30,15 @@ Projeto desenvolvido durante o evento **NLW (Next Level Week)** da Rocketseat, f
 - **Biome** - Linter e formatter (substituindo ESLint + Prettier)
 - **Ultracite** - Configuração de linting otimizada
 
-## ?? Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
-src/
-??? components/
-?   ??? ui/           # Componentes base reutilizáveis
-??? pages/            # Páginas da aplicação
-??? lib/              # Utilitários e configurações
-??? app.tsx           # Componente principal
-??? main.tsx          # Ponto de entrada
+| src/
+??? app.tsx         # Componente principal
+??? components      # Componentes base reutilizáveis
+??? lib             # Utilitários e configurações
+??? main.tsx        # Ponto de entrada
+??? pages           # Páginas da aplicação
 ```
 
 ## ??? Padrões de Projeto
