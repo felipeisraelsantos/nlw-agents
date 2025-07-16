@@ -8,6 +8,20 @@
       "when": 1752157754629,
       "tag": "0000_harsh_gravity",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1752581270864,
+      "tag": "0001_late_marten_broadcloak",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752688141890,
+      "tag": "0002_stale_snowbird",
+      "breakpoints": true
     }
   ]
 }
