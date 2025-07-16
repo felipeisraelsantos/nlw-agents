@@ -7,6 +7,9 @@ import {
 } from 'fastify-type-provider-zod';
 import { env } from './env.ts';
 import { getRoomsRoute } from './http/routes/get-rooms.ts';
+import { createRoomRoute } from './http/routes/create-room.ts';
+import { getRoomsQuestionsRoute } from './http/routes/get-room-questions.ts';
+import { createQuestionRoute } from './http/routes/create-questions.ts';
 
 const app = fastify().withTypeProvider<ZodTypeProvider>();
 
@@ -22,7 +25,10 @@ app.get('/health', () => {
 });
 
 app.register(getRoomsRoute)
+app.register(createRoomRoute)
+app.register(getRoomsQuestionsRoute)
+app.register(createQuestionRoute)
 
 app.listen({ port: env.PORT }).then(() => {
-    console.log('HTTP server runing !!!');
+    console.log(`HTTP server runing !!! na porta ${env.PORT}`);
 });
