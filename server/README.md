@@ -2,7 +2,7 @@
 
 Projeto desenvolvido durante o evento **NLW (Next Level Week)** da Rocketseat, focado em criar uma aplicação de agentes inteligentes.
 
-## ?? Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Backend
 
@@ -21,22 +21,22 @@ Projeto desenvolvido durante o evento **NLW (Next Level Week)** da Rocketseat, f
 - **Drizzle Kit** - CLI para migrações e seeds
 - **Ultracite** - Ferramenta de desenvolvimento
 
-## ?? Estrutura do Projeto
+## Estrutura do Projeto
 
-```bash
+```
 src/
-??? db/
-?   ??? connection.ts      # Conexão com banco de dados
-?   ??? migrations/        # Migrações do banco
-?   ??? schema/           # Schemas das tabelas
-?   ??? seed.ts           # Dados iniciais
-??? http/
-?   ??? routes/           # Rotas da API
-??? env.ts               # Configuração de variáveis de ambiente
-??? server.ts            # Servidor principal
+--- db/
+|   --- connection.ts      # Conexão com banco de dados
+|   --- migrations/        # Migrações do banco
+|   --- schema/           # Schemas das tabelas
+|   --- seed.ts           # Dados iniciais
+|-- http/
+|   --- routes/           # Rotas da API
+|-- env.ts               # Configuração de variáveis de ambiente
+|-- server.ts            # Servidor principal
 ```
 
-## ??? Padrões de Projeto
+## Padrões de Projeto
 
 - **Clean Architecture** - Separação clara de responsabilidades
 - **Repository Pattern** - Abstração do acesso a dados
@@ -44,7 +44,7 @@ src/
 - **Type Safety** - Uso extensivo de TypeScript e Zod
 - **Environment Configuration** - Validação de variáveis de ambiente
 
-## ?? Setup e Configuração
+## Setup e Configuração
 
 ### Pré-requisitos
 
@@ -102,12 +102,12 @@ npm run dev
 npm start
 ```
 
-## ?? Endpoints da API
+## Endpoints da API
 
 - `GET /health` - Health check
 - `GET /rooms` - Lista todas as salas
 
-## ?? Docker
+## Docker
 
 O projeto inclui configuração Docker para facilitar o desenvolvimento:
 
@@ -119,13 +119,13 @@ docker-compose up -d
 docker-compose down
 ```
 
-## ?? Scripts Disponíveis
+## Scripts Disponíveis
 
 - `npm run dev` - Inicia o servidor em modo desenvolvimento com hot reload
 - `npm start` - Inicia o servidor em modo produção
 - `npm run db:seed` - Executa o seed do banco de dados
 
-## ?? Configurações
+## Configurações
 
 ### Biome (Linter/Formatter)
 
@@ -141,4 +141,4 @@ Configurado para PostgreSQL com:
 
 ---
 
-Desenvolvido com ?? durante o **NLW Agents** da Rocketseat
+Desenvolvido com <i class="fas fa-heart"></i> durante o **NLW Agents** da Rocketseat
