@@ -5,8 +5,8 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "./card";
-import { Badge } from "./badge";
+} from "./ui/card";
+import { Badge } from "./ui/badge";
 import { dayjs } from "@/lib/dayjs";
 import { ArrowRight } from "lucide-react";
 import { useRooms } from "@/http/use-rooms";
@@ -33,7 +33,7 @@ export const RoomList = () => {
             <Link
               className="flex items-center justify-between rounded-lg border p-3 hover:bg-accent/50"
               key={room.id}
-              to={`/rooms/${room.id}`}
+              to={`/room/${room.id}`}
             >
               <div className="flex-1 flex flex-col gap-1">
                 <h3 className="font-medium">{room.name}</h3>

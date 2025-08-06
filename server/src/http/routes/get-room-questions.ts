@@ -27,9 +27,6 @@ export const getRoomsQuestionsRoute: FastifyPluginCallbackZod = (app) => {
             .where(eq(schema.questions.roomId, roomId))
             .orderBy(desc(schema.questions.createdAt))
 
-            console.log('Get Room: ', roomId);
-            
-
             return result
         }
     )

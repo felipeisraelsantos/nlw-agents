@@ -22,6 +22,13 @@
       "when": 1752688141890,
       "tag": "0002_stale_snowbird",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1754443538798,
+      "tag": "0003_messy_lockheed",
+      "breakpoints": true
     }
   ]
 }
